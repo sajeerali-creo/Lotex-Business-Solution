@@ -1,0 +1,271 @@
+
+
+// ============bigScreen===========
+@media all and (max-width: 991px) {
+
+	#ddmenu .over .dropdown{
+		min-width: 100%;
+	}
+    .detail-lotex .content-box{
+        position: static;
+        float: left;
+        width: 100%;
+    }
+}
+
+
+
+// ============MediumScreen========
+@media all and (max-width: 768px) {
+	header{
+		min-height: auto;
+	}
+	.top-header{
+		height: auto!important;
+		.top-contact-details, .top-social{
+			width: 100%;
+			text-align: center;
+		}
+	}
+	#ddmenu{
+		margin-top: -43px;
+	}
+	#ddmenu .top-heading{
+		width: 100%;
+		margin:0px;
+		padding:0px 10px;
+	}
+	#ddmenu:hover .caret{
+		color: #000;
+	}
+	#ddmenu .over .dropdown{
+		min-width: auto;
+	}
+	#ddmenu ul ul li{
+		width: 100%;
+	}
+
+	#ddmenu .column.mayHide {
+        display:none;
+    }
+
+    /*override the original settings*/
+    #ddmenu ul {
+        width: 100%;
+        display: none;
+        border-radius:0;
+        float: right;
+        border-top:1px solid #e1e1e1;
+
+    }
+
+    #ddmenu li {
+        position:relative;
+        display:block;
+        font-size:20px;
+        text-align:left;
+        border-bottom: 1px solid #f1f1f1;
+        border-radius:0;
+        width: 100%;
+        padding:5px 0px;
+
+    }
+
+    #ddmenu .full-width {
+        position: relative;
+    }
+
+    #ddmenu .dropdown {
+        position:relative;
+        *top:auto;/*for IE7*/
+        border:none;
+        border-radius:0;
+        box-shadow:none;
+        background-color:#FFF;
+    }
+
+    #ddmenu .offset300 {
+        left:0;
+    }
+
+    #ddmenu .full-width .dropdown {
+        width: auto;
+    }
+
+    #ddmenu .dd-inner
+    {
+        margin:0;
+        background:none;
+        text-align:left;
+    }
+
+    /*turn each column to list vertically instead of horizontally */
+    #ddmenu .column {
+        width:auto;
+        padding:0;
+        border:none;
+        display:block;
+    }
+
+    /*move the arrow icon to right*/
+    #ddmenu .caret {
+        position:absolute;
+        left:auto;
+        right:14px;
+        top:20px;
+        border-width:5px;
+    }
+
+
+    /* All the following are for the .menu-icon (pure CSS) */
+    #ddmenu .menu-icon {
+        font-size:32px;/*icon size*/
+		display: block;
+        position: relative;
+		width: 40px;
+		height:36px;
+        text-align:center;
+		cursor: pointer;
+		-moz-user-select:none;
+        -webkit-user-select: none;
+        // background-color: #eee;
+        border-radius: 3px;
+
+        margin-bottom:6px;
+        /*align the icon to the right*/
+        margin-left: auto;
+        // margin-right: 11px;
+    }
+
+    #ddmenu .menu-icon::before {
+        content: "";
+        position: absolute;
+        top: 0.25em;
+        left: 4px;
+        width: 1em;
+        height: 0.125em;
+        border-top: 0.375em double $green;
+        border-bottom: 0.125em solid $green;
+        box-sizing: content-box;
+    }
+
+    #ddmenu .menu-icon-active {
+        background-color: #fff;
+        opacity: 0.5;
+    }
+
+    #ddmenu .menu-icon-active::before {
+        border-color: $green;
+    }
+    .top-header{
+    	display: none;
+    }
+    .banner{
+        .banner-text{
+            h1{
+                text-align: center;
+                font-size: 40px;
+                display: block;
+                padding-top:20%;
+            }
+            p{
+                text-align: center;
+                width: 100%;
+            }
+            button{
+                margin:0px auto;
+                float: none;
+            }
+            
+        }
+    }
+    .detail-lotex .content-box{
+        position: static;
+        float: left;
+        width: 100%;
+    }
+    .stats-box{
+        width: 50%;
+        border-bottom:1px solid #6aa52b;
+        
+        h4{
+           font-size: 14px!important; 
+        }
+    }
+    .client-about{
+        text-align: center;
+    }
+    .sub-footer{
+        height: auto;
+        text-align: center;
+        .social{
+            float: none;
+            margin:0px auto;
+            width: 130px;
+        }
+    }
+    .box-product-detail .product-picture{
+        width: 100%;
+        position:inherit;
+        float: left;
+        height: auto;
+    }
+    .box-product-detail .product-discription{
+        width: 100%;
+        position:inherit;
+        float: left;
+        top: 0px;
+    }
+    .ervice-details .half{
+        width: 100%;
+        height: auto;
+        img{
+            height: 120px;
+        }
+    }
+    .banner{
+        height: 480px;
+        overflow: hidden;
+    }
+    .menu{
+        margin-top:50px;
+    }
+    .box-product-detail .product-picture img{
+        height: 130px;
+    }
+    .box-product-detail .product-discription{
+        height: auto!important;
+    }
+    .mission-vission-box{
+        height:auto;
+        h2{
+            padding-top:30px;
+        }
+    }
+    footer h3{
+        padding-top:10px;
+        padding-bottom:10px;
+    }
+    footer{
+        .menu{
+            margin-top:0px!important;
+            margin-bottom:20px;
+        }
+    }
+    div.wpcf7-mail-sent-ok{
+        width:100%;
+    }
+    div.wpcf7-validation-errors{
+        width:100%;
+    }
+
+
+}
+
+
+// ============SmallScreen=========
+@media all and (max-width: 480px) {
+    .cd-logo{
+        left: 5%!important;
+    }
+}
