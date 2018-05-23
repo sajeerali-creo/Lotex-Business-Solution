@@ -18,45 +18,12 @@ footer{
 		border-bottom:1px solid #374a61;
 	}
 	img{
-		height: 55px;
+		height: 95px;
 		display: block;
 		padding-top:15px;
 	}
-
-	.ad-footer{
-		padding-top:15px;
-			.location{
-				background-image: url(../images/location.svg);
-			    background-size: 10px;
-			    background-repeat: no-repeat;
-			}
-			.email{
-				background-image: url(../images/email.svg);
-			    background-size: 10px;
-			    background-repeat: no-repeat;
-			}
-			.phone{
-				background-image: url(../images/phone.svg);
-			    background-size: 10px;
-			    background-repeat: no-repeat;
-			}
-			.web{
-				background-image: url(../images/website.svg);
-			    background-size: 10px;
-			    background-repeat: no-repeat;
-			}
-			li{
-				padding-left:20px;
-				padding-bottom:10px;
-				padding-top:0px;
-				line-height: 20px;
-			}
-		}
-
 	ul{
 		display: block;
-
-		
 		li{
 			display: block;
 			font-size: 13px;

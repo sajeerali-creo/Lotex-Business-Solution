@@ -449,4 +449,18 @@ function html5_shortcode_demo_2($atts, $content = null) // Demo Heading H2 short
     return '<h2>' . $content . '</h2>';
 }
 
+
+// more featured image
+
+if (class_exists('MultiPostThumbnails')) {
+    new MultiPostThumbnails(
+        array(
+            'label' => 'logo service done before',
+            'id' => 'secondary-image',
+            'post_type' => 'post'
+        )
+    );
+}
+
+
 ?>

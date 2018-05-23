@@ -36,7 +36,7 @@ The system enables reduction of operational cost with improved administrative co
     <div class="row">
       <div class="col s12 l12 m12">
         <h3>How It Works</h3>
-        <img src="http://lotex.co.in/neolotex/wp-content/uploads/2018/04/MOBiFIN.png">
+        <!-- image -->
       </div>
     </div>
   </div>

@@ -16,7 +16,7 @@
 }
 
 .contact-deatils{
-	b{
+	span{
 		disply:block;
 		width:167px;
 		height:167px;
@@ -64,9 +64,7 @@
 			disply:block;
 			padding-bottom:5px;
 			color:#999;
-			font-size:13px;
-			padding-left:20px;
-			padding-bottom:10px;
+			font-size:14px;
 			i{
 				disply:inline-block;
 				width:20px;
@@ -74,46 +72,6 @@
 
 			}
 		}
-		.location{
-			background-image: url(../images/location.svg);
-		    background-size: 10px;
-		    background-repeat: no-repeat;
-		}
-		.email{
-			background-image: url(../images/email.svg);
-		    background-size: 10px;
-		    background-repeat: no-repeat;
-		}
-		.phone{
-			background-image: url(../images/phone.svg);
-		    background-size: 10px;
-		    background-repeat: no-repeat;
-		}
-		.web{
-			background-image: url(../images/website.svg);
-		    background-size: 10px;
-		    background-repeat: no-repeat;
-		}
-	}
-	h5{
-		font-size: 18px;
-		font-family: 'Playfair Display', serif;
-		font-weight:600;
-		display: block;
-		padding-bottom:10px;
-	}
-	hr{
-		border:none;
-		border:1px solid #f1f1f1;
-	}
-	.c-box{
-		padding:20px;
-		border:1px solid #f1f1f1;
-		height: 220px;
-		margin-top: 20px;
-	}
-	.l4{
-		padding:0px;
 	}
 }
 
@@ -159,13 +117,4 @@
 			}
 		}
 	}
-}
-
-.comment-reply-title{
-	font-size:24px;
-	font-weight:600;
-	font-family: 'Playfair Display', serif;
-	padding:20px 0px;
-	border-top:1px solid #f1f1f1;
-	margin-top:30px;
 }

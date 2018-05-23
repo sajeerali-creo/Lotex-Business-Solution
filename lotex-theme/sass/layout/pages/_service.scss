@@ -46,22 +46,9 @@
 				padding-bottom:20px;
 			}
 			p{
-				font-size: 14px;
+				font-size: 13px;
 				line-height: 24px;
 				display: block;
-			}
-			ul{
-				margin-top:30px;
-				li{
-					padding-bottom: 10px;
-				    font-size: 14px;
-				    background-image: url(../images/dot.svg);
-				    padding-left: 20px;
-				    background-repeat: no-repeat;
-				    background-size: 10px;
-				    background-position: 0px 4px;
-    				line-height: normal;
-				}
 			}
 		}
 	}
@@ -126,7 +113,7 @@
 	.box-description-area{
 		padding:40px 10px;
 		p{
-			font-size: 14px;
+			font-size: 13px;
 			line-height: 24px;
 		}
 	}
@@ -184,7 +171,7 @@
 			text-align: center;
 			font-weight: 400;
 			display: block;
-			padding-bottom:30px;
+			padding-top:30px;
 		}
 	}
 }
@@ -225,73 +212,5 @@
             margin: auto;
 		}
 
-	}
-}
-
-
-.advantage{
-	padding:5% 0%;
-	display:block;
-	float:left;
-	width:100%;
-	background-color:#fff;
-
-	h3{
-		font-size:24px;
-		color:#333;
-		font-family: 'Playfair Display', serif;
-		font-weight:600;
-		padding-bottom:0px;
-		text-align: left;
-	}
-	ul{
-		margin-top:30px;
-		li{
-			padding-bottom: 10px;
-		    font-size: 14px;
-		    background-image: url(../images/dot.svg);
-		    padding-left: 20px;
-		    background-repeat: no-repeat;
-		    background-size: 10px;
-		    background-position: 0px 4px;
-    		line-height: normal;
-		}
-	}
-}
-
-// defult
-// ============================
-.defult{
-	padding:5% 0%;
-	display:block;
-	width:100%;
-	h2{
-		font-size:24px;
-		color:#333;
-		font-family: 'Playfair Display', serif;
-		font-weight:600;
-		padding-bottom:0px;
-		text-align: left;
-	}
-	ul{
-		margin-top:30px;
-		li{
-			padding-bottom: 10px;
-		    font-size: 14px;
-		    background-image: url(../images/dot.svg);
-		    padding-left: 20px;
-		    background-repeat: no-repeat;
-		    background-size: 10px;
-		    background-position: 0px 4px;
-    		line-height: normal;
-		}
-	}
-}
-
-
-// more-client
-.inner-clients{
-	.partner{
-		padding-top:0px!important;
 	}
 }

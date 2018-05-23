@@ -1,9 +1,8 @@
 .banner{
   width: 100%;
-  height: 500px;
+  height: 600px;
   background: #e1e1e1;
   color: #fff;
-  overflow:hidden;
   .banner-text{
   	width: 100%;
   	height: 100%;
@@ -25,7 +24,7 @@
   		font-size: 14px;
   		color: #fff;
   		text-align: left;
-  		font-weight: 400;
+  		font-weight: 600;
   		font-size: 14px;
   		line-height: 22px;
   		display: block;
@@ -56,74 +55,6 @@
   width:100%;
   height:200px;
   background:#f1f1f1;
-  overflow:hidden;
   // margin-bottom: 50px;
-  // background-attachment:fixed;
+  background-attachment:fixed;
 }
-
-article{
-  br{
-    display:none!important;
-  }
-}
-
-
-
-.chpcs_foo_content{
-  border:1px solid #f1f1f1;
-  position:relative;
-  img{
-    max-height: 100%;
-    max-width: 100%;
-    width: auto;
-    height: auto;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-  }
-}
-
-
-
-.technology{
-  background-image:url(../images/tech.jpg);
-  background-repeat:no-reapt;
-  background-size:cover;
-  position:relative;
-  height:auto;
-  .about-technology{
-    background-color:rgba(0, 0, 0, 0.71);
-    padding:100px 0px;
-    h3{
-      font-size:24px;
-      text-align:left;
-      disply:block;
-      color:#fff;
-      font-family: 'Playfair Display', serif;
-      font-weight:600;
-      padding-bottom:20px;
-    }
-    p{
-      font-size:14px;
-      text-align:left;
-      disply:block;
-      color:#fff;
-      line-height:24px;
-    }
-  }
-  
-}
-.outsource{
-  background-image:url(../images/2.jpg)!important;
-  background-position: center!important;
-}
-
-.scanner{
-  background-image:url(../images/9.jpg)!important;
-  background-position: center!important;
-}
-
-

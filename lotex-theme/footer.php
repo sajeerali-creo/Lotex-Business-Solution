@@ -19,11 +19,11 @@
           <div class="col l3 m3 s12">
             <h3>Contact Us</h3>
             <img src="<?php bloginfo('template_url'); ?>/images/footer-logo.svg">
-            <ul>
-              <li><i class="zmdi zmdi-pin"></i>2nd Floor2, Krishna Reddy Colony</li>
-              <li><i class="zmdi zmdi-phone"></i>Phone: 080-65692244</li>
-              <li><i class="zmdi zmdi-email"></i>2Email : mail@Lotex.co.in</li>
-              <li><i class="zmdi zmdi-globe"></i>Web : www.lotex.co.in</li>
+            <ul class="ad-footer">
+              <li class="location">24/A, 2nd Floor, 7 th Cross, K R Colony, Domlur Layout, Bangalore, India-560 071,</li>
+              <li class="email">Email : mail@lotex.co.in</li>
+              <li class="phone">Phone: 8884426333</li>
+              <li class="web">Web : www.neolotex.com</li>
             </ul>
           </div>
           <div class="col l3 m3 s12">
@@ -52,7 +52,7 @@
                   break;
                   endwhile;
                 ?>
-                
+
               </li>
               <li>
                 <div class="newsletter">
@@ -72,7 +72,7 @@
       <div class="container">
         <div class="row">
           <div class="col s12 m12 l6">
-            <span>Copyright © Lotex Business Solution. All Rights Reserved</span>
+            <span>Copyright © NeoLotex Business Solution. All Rights Reserved</span>
           </div>
           <div class="col s12 m12 l6">
             <ul class="social">
@@ -93,42 +93,12 @@
         </div>
       </div>
     </section>
- 
-    
-    <div class="cd-overlay"></div>
+
+
+
   </main>
 
-  <div class="cd-nav">
-    <ul id="cd-primary-nav" class="cd-primary-nav is-fixed">
-      <li class="has-children">
-        <a href="http://codyhouse.co/?p=409">Company</a>
-        <ul class="cd-secondary-nav is-hidden">
-          <li class="go-back"><a href="#0">Menu</a></li>
-           <?php wp_nav_menu( array('menu' => 'company-menu')); ?>
-        </ul>
-      </li>
 
-      <li class="has-children">
-        <a href="http://codyhouse.co/?p=409">Service</a>
-        <ul class="cd-secondary-nav is-hidden">
-          <li class="go-back"><a href="#0">Menu</a></li>
-          <?php wp_nav_menu( array('menu' => 'service-menu')); ?>
-        </ul>
-      </li>
-
-      <li class="has-children">
-        <a href="http://codyhouse.co/?p=409">Solutions</a>
-        <ul class="cd-secondary-nav is-hidden">
-          <li class="go-back"><a href="#0">Menu</a></li>
-            <?php wp_nav_menu( array('menu' => 'solution-menu')); ?>
-        </ul>
-      </li>
-
-      <li><a href="http://lotex.co.in/neolotex/career/">Career</a></li>
-      <li><a href="http://lotex.co.in/neolotex/blog/">Blog</a></li>
-      <li><a href="http://lotex.co.in/neolotex/contact-us/">Contact Us</a></li>
-    </ul>
-  </div>
 
 
 
@@ -141,17 +111,49 @@
       <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/materialize.min.js"></script>
       <script src='http://cdn.jsdelivr.net/jquery.slick/1.5.0/slick.min.js'></script>
       <script src="<?php bloginfo('template_url'); ?>/js/modernizr.js"></script> <!-- Modernizr -->
-      <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/main.js"></script>
-      <!-- <script src="js/ddmenu.js" type="text/javascript"></script> -->
+
+
       <!-- scrolling animation -->
       <script src="<?php bloginfo('template_url'); ?>/js/scroll.js"></script>
 
       <!-- slider -->
+      <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/main.js"></script>
       <script  src="<?php bloginfo('template_url'); ?>/js/index.js"></script>
 
       <!-- Common Scripts -->
       <script src="<?php bloginfo('template_url'); ?>/js/common.js"></script>
 
+      <!-- <script>
+      $(document).ready(function(){
+          $(".dropbtn").mouseover(function(){
+              $(".cd-overlay2").show();
+          });
+          $(".dropdown-contents").mouseleave(function(){
+              $(".cd-overlay2").hide();
+          });
+      });
+      </script> -->
+       <script>
+      $(document).ready(function(){
+          $(".dropbtn").mouseover(function(){
+              $(".cd-overlay2").toggle();
+          });
+          
+      });
+      </script>
+      
+
+<script>
+$('a[href^="#"]').on('click', function(event) {
+    var target = $(this.href);
+    if( target.length ) {
+        event.preventDefault();
+        $('html, body').animate({
+            scrollTop: target.offset().top
+        }, 1000);
+    }
+});
+</script>
 
     </body>
   </html>

@@ -1,50 +1,30 @@
  <?php
 /* Template Name: technology*/
 ?>
-<?php get_header(); ?>  
+<?php get_header(); ?>
 
 
 <main class="cd-main-content">
-<!-- your content here -->
-<!-- banner -->
+
+ <!-- banner -->
 <!-- =============================================== -->
- <main role="main">
-    <!-- section -->
-    <section>
 
-    <?php if (have_posts()): while (have_posts()) : the_post(); ?>
+<section class="sub-banner technology">
+  <div class="about-technology">
+  <div class="container">
+    <?php
+       query_posts(array('category_name'=>'technology-service','posts_per_page' => 3));
+       while ( have_posts() ) : the_post();
+    ?>
+  <h3><?php echo get_the_title(); ?></h3>
+    <?php the_content(); ?>
 
-      <!-- article -->
-      <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-
-        <?php the_content(); ?>
-
-        <?php comments_template( '', true ); // Remove if you don't want comments ?>
-
-        <br class="clear">
-
-        <?php edit_post_link(); ?>
-
-      </article>
-      <!-- /article -->
-
-    <?php endwhile; ?>
-
-    <?php else: ?>
-
-      <!-- article -->
-      <article>
-
-        <h2><?php _e( 'Sorry, nothing to display.', 'html5blank' ); ?></h2>
-
-      </article>
-      <!-- /article -->
-
-    <?php endif; ?>
-
-    </section>
-    <!-- /section -->
-  </main>
+  <?php
+    endwhile;
+  ?>
+  </div>
+  </div>
+</section>
 
 <!-- What We Do? -->
 <!-- ========================================================= -->
@@ -72,7 +52,7 @@
       <div class="col s12 l12 m12">
         <h2>Technology Stats</h2>
       </div>
-      
+
       <div class="row techi-row">
         <div class="col s12 m12 l6">
           <div class="box-techi">
@@ -90,7 +70,7 @@
            <?php the_content(); ?>
              <?php
                 endwhile;
-              ?>  
+              ?>
           </ul>
         </div>
       </div>
@@ -108,7 +88,7 @@
            <?php the_content(); ?>
              <?php
                 endwhile;
-              ?>  
+              ?>
           </ul>
         </div>
         </div>
@@ -123,6 +103,29 @@
 </section>
 
 
+<section class="content-section">
+  <div class="container">
+    <div class="col s12 m12 l12 career-details">
+        <h3>Methodology</h3>
+        <ul class="collapsible">
+           <?php
+          query_posts('category_name=Methodology' );
+          while ( have_posts() ) : the_post();
+        ?>
+          <li>
+            <div class="collapsible-header heda-clops"><?php echo get_the_title(); ?></div>
+            <div class="collapsible-body">
+              <?php the_content(); ?>
+            </div>
+          </li>
+
+          <?php
+            endwhile;
+          ?>
+        </ul>
+    </div>
+  </div>
+</section>
 
 
 

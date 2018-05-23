@@ -55,7 +55,8 @@
     <div class="form-map">
       <div class="row">
         <div class="col s12 m12 l7">
-          <iframe src="https://www.google.com/maps/embed?pb" width="100%" height="420" frameborder="0" style="border:0" allowfullscreen></iframe>
+          
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15552.970829453463!2d77.6487695!3d12.9563153!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1a99508e5c248a97!2sOxford+Palazzo!5e0!3m2!1sen!2sae!4v1525994924111" width="100%" height="420" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
         <div class="col s12 m12 l5">
          <div class="box-form">

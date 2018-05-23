@@ -164,7 +164,7 @@
         .banner-text{
             h1{
                 text-align: center;
-                font-size: 40px;
+                font-size: 50px;
                 display: block;
                 padding-top:20%;
             }
@@ -185,12 +185,8 @@
         width: 100%;
     }
     .stats-box{
-        width: 50%;
-        border-bottom:1px solid #6aa52b;
-        
-        h4{
-           font-size: 14px!important; 
-        }
+        width: 100%;
+        border-bottom:1px solid #6aa52b;;
     }
     .client-about{
         text-align: center;
@@ -201,7 +197,7 @@
         .social{
             float: none;
             margin:0px auto;
-            width: 130px;
+            width: 113px;
         }
     }
     .box-product-detail .product-picture{
@@ -218,45 +214,6 @@
     }
     .ervice-details .half{
         width: 100%;
-        height: auto;
-        img{
-            height: 120px;
-        }
-    }
-    .banner{
-        height: 480px;
-        overflow: hidden;
-    }
-    .menu{
-        margin-top:50px;
-    }
-    .box-product-detail .product-picture img{
-        height: 130px;
-    }
-    .box-product-detail .product-discription{
-        height: auto!important;
-    }
-    .mission-vission-box{
-        height:auto;
-        h2{
-            padding-top:30px;
-        }
-    }
-    footer h3{
-        padding-top:10px;
-        padding-bottom:10px;
-    }
-    footer{
-        .menu{
-            margin-top:0px!important;
-            margin-bottom:20px;
-        }
-    }
-    div.wpcf7-mail-sent-ok{
-        width:100%;
-    }
-    div.wpcf7-validation-errors{
-        width:100%;
     }
 
 

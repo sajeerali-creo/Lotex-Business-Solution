@@ -2231,7 +2231,7 @@ footer .wpcf7-submit {
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
   width: 100% !important;
-  color: #fff !important;
+  color:#84c23f !important;
 }
 
 /* line 1819, ../sass/tools/_plugin.scss */
@@ -2267,7 +2267,7 @@ footer .wpcf7-submit {
   transform: scaleX(1);
   -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
   transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
-  color: #fff !important;
+  color: rgb(131, 196, 62)!important;
 }
 
 /* line 1852, ../sass/tools/_plugin.scss */
@@ -5788,9 +5788,9 @@ footer .wpcf7-submit {
   opacity: 1;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-Bouncy 
+Bouncy
 
 -------------------------------- */
 /* line 4946, ../sass/tools/_plugin.scss */
@@ -6004,7 +6004,7 @@ Bouncy
     transform: perspective(800px) rotateX(0);
   }
 }
-/* -------------------------------- 
+/* --------------------------------
 
 Cut
 
@@ -6186,7 +6186,7 @@ Cut
     transform: translateX(0);
   }
 }
-/* -------------------------------- 
+/* --------------------------------
 
 Reveal
 
@@ -6408,7 +6408,7 @@ Reveal
     transform: scaleX(1);
   }
 }
-/* -------------------------------- 
+/* --------------------------------
 
 Mask
 
@@ -6535,7 +6535,7 @@ Mask
     transform: scaleX(1);
   }
 }
-/* -------------------------------- 
+/* --------------------------------
 
 Mask 2
 
@@ -6709,7 +6709,7 @@ Mask 2
     opacity: 0;
   }
 }
-/* -------------------------------- 
+/* --------------------------------
 
 scale
 
@@ -6775,7 +6775,7 @@ scale
     transform: scale(1);
   }
 }
-/* -------------------------------- 
+/* --------------------------------
 
 Parallax
 
@@ -6965,9 +6965,9 @@ Parallax
     transform: translateY(0);
   }
 }
-/* -------------------------------- 
+/* --------------------------------
 
-Video 
+Video
 
 -------------------------------- */
 /* line 6034, ../sass/tools/_plugin.scss */
@@ -7156,7 +7156,7 @@ Video
 
 /* line 6183, ../sass/tools/_plugin.scss */
 .cd-secondary-nav {
-  background-color: #222 !important;
+  background-color: #fff !important;
 }
 
 /* line 1, ../sass/layout/_header.scss */
@@ -7231,7 +7231,7 @@ header .logo img {
   line-height: 200px;
   color: #fff;
   background-color: rgba(0, 0, 0, 0.71);
-  font-family: 'Playfair Display', serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 600;
 }
 /* line 66, ../sass/layout/_header.scss */
@@ -7407,7 +7407,7 @@ footer {
 /* line 11, ../sass/layout/_footer.scss */
 footer h3 {
   font-size: 20px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Open Sans', sans-serif;
   color: #fff;
   font-weight: 400;
   padding-bottom: 30px;
@@ -8856,9 +8856,9 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
 /* line 15, ../sass/layout/_banner.scss */
 .banner .banner-text h1 {
   text-align: left;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 600;
-  font-size: 60px;
+  font-size: 45px;
   display: block;
   padding: 10% 0px 20px 0px;
 }
@@ -8945,7 +8945,7 @@ article br {
   text-align: left;
   disply: block;
   color: #fff;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   padding-bottom: 20px;
 }
@@ -8983,7 +8983,7 @@ article br {
   font-size: 26px;
   font-weight: 600;
   position: relative;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Open Sans', sans-serif;
 }
 /* line 16, ../sass/layout/pages/_home.scss */
 .our_offering h2 i {
@@ -9034,7 +9034,7 @@ article br {
   font-weight: 600;
   display: block;
   padding-bottom: 5px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Open Sans', sans-serif;
   text-align: center;
   line-height: 370px;
   position: absolute;
@@ -9077,7 +9077,7 @@ article br {
   display: block;
   padding-top: 0px;
   padding-bottom: 20px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Open Sans', sans-serif;
   text-align: left;
 }
 /* line 103, ../sass/layout/pages/_home.scss */
@@ -9135,7 +9135,7 @@ article br {
 }
 /* line 159, ../sass/layout/pages/_home.scss */
 .detail-lotex .content-box h3 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Open Sans', sans-serif;
   color: #fff;
   font-size: 26px;
   padding-bottom: 30px;
@@ -9270,7 +9270,7 @@ article br {
   font-size: 26px;
   padding-top: 10px;
   color: #333;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Open Sans', sans-serif;
   padding-bottom: 20px;
   font-weight: 600;
 }
@@ -9293,7 +9293,7 @@ article br {
 /* line 317, ../sass/layout/pages/_home.scss */
 .client .partner h2 {
   font-size: 26px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Open Sans', sans-serif;
   color: #333;
   font-weight: 600;
 }
@@ -9323,7 +9323,7 @@ article br {
   -webkit-border-radius: 160px;
   -moz-border-radius: 160px;
   margin-right: 10px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Open Sans', sans-serif;
   color: #fff;
   font-size: 50px;
 }
@@ -9339,7 +9339,7 @@ article br {
 /* line 355, ../sass/layout/pages/_home.scss */
 .client .partner .head-section .name-postion h3 {
   font-size: 18px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 600;
 }
 /* line 360, ../sass/layout/pages/_home.scss */
@@ -9459,7 +9459,7 @@ span.wpcf7-not-valid-tip {
   line-height: 200px;
   color: #fff;
   background-color: rgba(0, 0, 0, 0.71);
-  font-family: 'Playfair Display', serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 600;
 }
 /* line 17, ../sass/layout/pages/_company.scss */
@@ -9480,7 +9480,7 @@ span.wpcf7-not-valid-tip {
 .mission-vission-box h2 {
   font-size: 24px;
   color: #fff;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   padding-top: 190px;
   disply: block;
@@ -9492,7 +9492,7 @@ span.wpcf7-not-valid-tip {
   font-style: italic;
   letter-spacing: 1px;
   line-height: 30px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Open Sans', sans-serif;
   color: #fff;
   opacity: 0.8;
 }
@@ -9522,7 +9522,7 @@ span.wpcf7-not-valid-tip {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.6);
   font-size: 24px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   color: #fff;
 }
@@ -9542,7 +9542,7 @@ span.wpcf7-not-valid-tip {
 }
 /* line 86, ../sass/layout/pages/_company.scss */
 .deatils-vission h3 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   color: #333;
   disply: block;
@@ -9580,7 +9580,7 @@ span.wpcf7-not-valid-tip {
   text-align: left;
   disply: block;
   color: #fff;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   padding-bottom: 20px;
 }
@@ -9606,7 +9606,7 @@ span.wpcf7-not-valid-tip {
 .what-we-do h2 {
   font-size: 24px;
   color: #333;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   padding-bottom: 20px;
 }
@@ -9673,7 +9673,7 @@ span.wpcf7-not-valid-tip {
 .technology-stack h2 {
   font-size: 24px;
   color: #333;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   padding-bottom: 50px;
 }
@@ -9724,7 +9724,7 @@ span.wpcf7-not-valid-tip {
 .technology-stack .box-techi-detail-left h3 {
   font-size: 20px;
   color: #333;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   padding-bottom: 20px;
   padding-top: 40px;
@@ -9751,7 +9751,7 @@ span.wpcf7-not-valid-tip {
 .technology-stack .box-techi-detail-right h3 {
   font-size: 20px;
   color: #333;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   padding-bottom: 20px;
   padding-top: 40px;
@@ -9766,7 +9766,7 @@ span.wpcf7-not-valid-tip {
 .team h2 {
   font-size: 24px;
   color: #333;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   padding-bottom: 50px;
 }
@@ -9864,7 +9864,7 @@ span.wpcf7-not-valid-tip {
 .team-deatil-window .team-detail-area span {
   font-size: 14px;
   font-style: italic;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Open Sans', sans-serif;
 }
 /* line 390, ../sass/layout/pages/_company.scss */
 .team-deatil-window p {
@@ -9883,7 +9883,7 @@ span.wpcf7-not-valid-tip {
 .office-culture h2 {
   font-size: 24px;
   color: #333;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   padding-bottom: 50px;
 }
@@ -9931,7 +9931,7 @@ span.wpcf7-not-valid-tip {
   line-height: 200px;
   color: #fff;
   background-color: rgba(0, 0, 0, 0.71);
-  font-family: 'Playfair Display', serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 600;
 }
 /* line 16, ../sass/layout/pages/_service.scss */
@@ -9967,7 +9967,7 @@ span.wpcf7-not-valid-tip {
 .ervice-details .half .each-s-detail h1 {
   font-size: 24px;
   color: #333;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   padding-top: 20px;
   disply: block;
@@ -10054,7 +10054,7 @@ span.wpcf7-not-valid-tip {
 .s-details h2 {
   font-size: 24px;
   color: #333;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   padding-bottom: 20px;
 }
@@ -10079,7 +10079,7 @@ span.wpcf7-not-valid-tip {
 .service-feedback h2 {
   font-size: 24px;
   color: #333;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   padding-bottom: 40px;
   text-align: center;
@@ -10105,7 +10105,7 @@ span.wpcf7-not-valid-tip {
 .service-feedback .client-f-box h3 {
   font-size: 20px;
   color: #333;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   padding-bottom: 10px;
   text-align: center;
@@ -10119,7 +10119,7 @@ span.wpcf7-not-valid-tip {
   font-size: 14px;
   font-style: italic;
   line-height: 30px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Open Sans', sans-serif;
   color: #666;
   text-align: center;
   font-weight: 400;
@@ -10138,7 +10138,7 @@ span.wpcf7-not-valid-tip {
 .service-done h2 {
   font-size: 24px;
   color: #333;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   padding-bottom: 40px;
   text-align: center;
@@ -10178,7 +10178,7 @@ span.wpcf7-not-valid-tip {
 .advantage h3 {
   font-size: 24px;
   color: #333;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   padding-bottom: 0px;
   text-align: left;
@@ -10209,7 +10209,7 @@ span.wpcf7-not-valid-tip {
 .defult h2 {
   font-size: 24px;
   color: #333;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   padding-bottom: 0px;
   text-align: left;
@@ -10250,7 +10250,7 @@ span.wpcf7-not-valid-tip {
   line-height: 200px;
   color: #fff;
   background-color: rgba(0, 0, 0, 0.71);
-  font-family: 'Playfair Display', serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 600;
 }
 /* line 18, ../sass/layout/pages/_solution.scss */
@@ -10301,7 +10301,7 @@ span.wpcf7-not-valid-tip {
 /* line 56, ../sass/layout/pages/_solution.scss */
 .box-product-detail .product-discription h2 {
   font-size: 24px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   color: #333;
   display: block;
@@ -10322,7 +10322,7 @@ span.wpcf7-not-valid-tip {
 /* line 75, ../sass/layout/pages/_solution.scss */
 .how-it-work h3 {
   font-size: 24px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   color: #333;
   display: block;
@@ -10359,7 +10359,7 @@ span.wpcf7-not-valid-tip {
 /* line 114, ../sass/layout/pages/_solution.scss */
 .success-story h2 {
   font-size: 24px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   color: #fff;
   display: block;
@@ -10372,7 +10372,7 @@ span.wpcf7-not-valid-tip {
   font-style: italic;
   letter-spacing: 1px;
   line-height: 30px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Open Sans', sans-serif;
   color: #fff;
   opacity: 0.8;
   text-align: center;
@@ -10386,7 +10386,7 @@ span.wpcf7-not-valid-tip {
   font-size: 14px;
   font-style: italic;
   letter-spacing: 1px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Open Sans', sans-serif;
 }
 /* line 146, ../sass/layout/pages/_solution.scss */
 .success-story i {
@@ -10413,7 +10413,7 @@ span.wpcf7-not-valid-tip {
   line-height: 200px;
   color: #fff;
   background-color: rgba(0, 0, 0, 0.71);
-  font-family: 'Playfair Display', serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 600;
 }
 
@@ -10427,7 +10427,7 @@ span.wpcf7-not-valid-tip {
   line-height: 32px;
   text-align: center;
   font-style: italic;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Open Sans', sans-serif;
   color: #333;
 }
 
@@ -10496,7 +10496,7 @@ span.wpcf7-not-valid-tip {
   line-height: 200px;
   color: #fff;
   background-color: rgba(0, 0, 0, 0.71);
-  font-family: 'Playfair Display', serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 600;
 }
 /* line 15, ../sass/layout/pages/_blog.scss */
@@ -10545,7 +10545,7 @@ span.wpcf7-not-valid-tip {
 .thumb-post .over-lay h2 {
   font-size: 20px;
   color: #fff;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   padding-top: 210px;
   disply: block;
@@ -10555,7 +10555,7 @@ span.wpcf7-not-valid-tip {
 .thumb-post .over-lay span {
   font-size: 12px;
   color: #fff;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Open Sans', sans-serif;
   font-style: italic;
 }
 /* line 60, ../sass/layout/pages/_blog.scss */
@@ -10610,7 +10610,7 @@ span.wpcf7-not-valid-tip {
 .detail-image .over-lay-detail h2 {
   font-size: 20px;
   color: #fff;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   padding-top: 250px;
   disply: block;
@@ -10620,7 +10620,7 @@ span.wpcf7-not-valid-tip {
 .detail-image .over-lay-detail span {
   font-size: 12px;
   color: #fff;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Open Sans', sans-serif;
   font-style: italic;
 }
 /* line 114, ../sass/layout/pages/_blog.scss */
@@ -10653,7 +10653,7 @@ span.wpcf7-not-valid-tip {
   line-height: 200px;
   color: #fff;
   background-color: rgba(0, 0, 0, 0.71);
-  font-family: 'Playfair Display', serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 600;
 }
 
@@ -10688,7 +10688,7 @@ span.wpcf7-not-valid-tip {
 /* line 45, ../sass/layout/pages/_contact.scss */
 .contact-deatils h3 {
   font-size: 24px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Open Sans', sans-serif;
   color: #222;
   disply: block;
   padding-top: 50px;
@@ -10749,7 +10749,7 @@ span.wpcf7-not-valid-tip {
 /* line 98, ../sass/layout/pages/_contact.scss */
 .contact-deatils h5 {
   font-size: 18px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   display: block;
   padding-bottom: 10px;
@@ -10788,7 +10788,7 @@ span.wpcf7-not-valid-tip {
 /* line 130, ../sass/layout/pages/_contact.scss */
 .form-map .box-form h3 {
   font-size: 24px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Open Sans', sans-serif;
   margin: 0px;
   padding-top: 0px;
   display: block;
@@ -10826,7 +10826,7 @@ span.wpcf7-not-valid-tip {
 .comment-reply-title {
   font-size: 24px;
   font-weight: 600;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Open Sans', sans-serif;
   padding: 20px 0px;
   border-top: 1px solid #f1f1f1;
   margin-top: 30px;
@@ -11148,6 +11148,6 @@ span.wpcf7-not-valid-tip {
 @media all and (max-width: 480px) {
   /* line 268, ../sass/layout/pages/_responsive.scss */
   .cd-logo {
-    left: 5% !important;
+    left: 0% !important;
   }
 }

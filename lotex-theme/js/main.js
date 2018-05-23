@@ -89,7 +89,7 @@ jQuery(document).ready(function($){
 	});
 
 	//submenu items - go back link
-	$('.go-back').on('click', function(){
+	$('.go-back').on('mouseover', function(){
 		$(this).parent('ul').addClass('is-hidden').parent('.has-children').parent('ul').removeClass('moves-out');
 	});
 

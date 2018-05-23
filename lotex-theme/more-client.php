@@ -1,7 +1,7 @@
  <?php
 /* Template Name: more-clients */
 ?>
-<?php get_header(); ?>  
+<?php get_header(); ?>
 
 <main class="cd-main-content">
 <!-- =============================================== -->
@@ -17,7 +17,7 @@
         <div class="row more-client">
 
          <?php
-          query_posts('category_name=client-words' );
+          query_posts('category_name=home_client_partners' );
           while ( have_posts() ) : the_post();
         ?>
         <div class="col s12 m12 l4">
@@ -25,7 +25,7 @@
             <i><img src="http://lotex.co.in/neolotex/wp-content/uploads/2018/04/qout.png"></i>
             <div class="name-postion">
               <h3><?php echo get_the_title(); ?></h3>
-              <span><?php echo get_post_meta($post->ID,'client-designation',true);?></span>
+              <span><?php echo get_post_meta($post->ID,'designation-client-home',true);?></span>
             </div>
             <div class="write-up">
               <div data-aos="fade-up"><?php the_content(); ?></div>
@@ -34,7 +34,7 @@
         </div>
         <?php
           endwhile;
-        ?>  
+        ?>
 
 
       </div>
